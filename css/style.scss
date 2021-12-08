@@ -38,10 +38,7 @@ COLORS_1 {
 
 /* --------------------// ТЕХНИЧЕСКИЕ КЛАССЫ //----------------------- */
 
-.header {
-	background-color: rgba(0, 0, 0, 0.5);
-	margin: 0px 0px 126px 0px;
-}
+@import "_header";
 .main {
 	flex: 1 0 100%;
 }
@@ -51,13 +48,13 @@ COLORS_1 {
 }
 
 [class*="__container"] {
-	max-width: 1020px;
+	max-width: 1110px;
 	margin: 0px auto;
 	padding: 0px 15px;
 	box-sizing: content-box;
 }
 /* №1 */
-@media (max-width: 1020px) {
+@media (max-width: 1110px) {
 	[class*="__container"] {
 		/* max-width: 970px; */
 	}
